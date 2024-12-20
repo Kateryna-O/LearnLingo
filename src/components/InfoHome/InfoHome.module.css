@@ -1,0 +1,37 @@
+.infoWrapper {
+  max-width: 1312px;
+  padding: 40px 122px;
+  border-radius: 30px;
+  border: 2px dashed #f0aa8d;
+}
+.InfoList {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 100px;
+  list-style-type: none;
+}
+.infoListItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.itemNum {
+  color: #121417;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.15; /* 114.286% */
+  letter-spacing: -0.56px;
+}
+.itemText {
+  color: rgba(18, 20, 23, 0.7);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.28px;
+  max-width: 96px;
+}

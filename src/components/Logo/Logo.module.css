@@ -1,0 +1,25 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.logoIcon {
+  width: 28px;
+  height: 28px;
+}
+.logoText {
+  color: var(--text);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+}

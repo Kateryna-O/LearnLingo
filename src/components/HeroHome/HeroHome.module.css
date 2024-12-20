@@ -1,0 +1,49 @@
+.heroWrapper {
+  width: 720px;
+  border-radius: 30px;
+  background: #f8f8f8;
+  padding: 98px 64px;
+}
+.titleHero {
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.17; /* 116.667% */
+  letter-spacing: -0.96px;
+  max-width: 548px;
+  margin-bottom: 32px;
+}
+.accentTitle {
+  border-radius: 8px;
+  background: #f4c8ba;
+  font-style: italic;
+}
+.textHero {
+  max-width: 471px;
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.375; /* 137.5% */
+  letter-spacing: -0.32px;
+  margin-bottom: 64px;
+}
+.btnHero {
+  max-width: 267px;
+  border-radius: 12px;
+  background: #f0aa8d;
+  display: inline-flex;
+  padding: 16px 85px;
+  justify-content: center;
+  align-items: center;
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5; /* 155.556% */
+  border: none;
+}

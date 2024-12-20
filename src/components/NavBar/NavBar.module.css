@@ -1,0 +1,70 @@
+.navigate {
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25; /* 125% */
+  text-decoration-line: none;
+  cursor: pointer;
+}
+.navBar {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin-left: 280px;
+}
+.buttonLogIn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.logInText {
+  color: var(--text);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25; /* 125% */
+}
+.logInIcon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  stroke-width: 0;
+  stroke: var(--peach-dawn, #f0aa8d);
+  fill: none;
+}
+.wrapper {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.buttonReg {
+  display: flex;
+  padding: 14px 39px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #121417;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25; /* 125% */
+  cursor: pointer;
+}
+.wrapperButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 170px;
+}
