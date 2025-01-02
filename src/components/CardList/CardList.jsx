@@ -7,6 +7,7 @@ import {
 } from "../../redux/teachers/selectors";
 import { useEffect, useState } from "react";
 import { fetchTeachers } from "../../redux/teachers/operations";
+import css from "./CardList.module.css";
 
 export const CardList = () => {
   const dispatch = useDispatch();
@@ -34,7 +35,7 @@ export const CardList = () => {
     <>
       <ul>
         {teachers.slice(0, itemPerPage * page).map((teachers, index) => (
-          <li key={`${teachers.id}-${index}`}>
+          <li key={`${teachers.id}-${index}`} className={css.listItem}>
             <Card teachers={teachers} />
           </li>
         ))}
