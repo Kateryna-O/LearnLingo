@@ -34,17 +34,20 @@ export const CardList = () => {
   return (
     <>
       <ul>
-        {teachers.slice(0, itemPerPage * page).map((teachers, index) => (
-          <li key={`${teachers.id}-${index}`} className={css.listItem}>
+        {teachers.slice(0, itemPerPage * page).map((teachers) => (
+          <li key={`${teachers.id}`} className={css.listItem}>
             <Card teachers={teachers} />
           </li>
         ))}
       </ul>
-      {teachers.length > teachers * page && (
-        <button type="button" onClick={LoadMore}>
-          Load more
-        </button>
+      {!isLoading && teachers.length >= itemPerPage * page && (
+        <div className={css.btnLoadContainer}>
+          <button type="button" onClick={LoadMore} className={css.btnLoad}>
+            Load more
+          </button>
+        </div>
       )}
+      {isLoading && <div className={css.loading}>Loading...</div>}
     </>
   );
 };

@@ -1,6 +1,34 @@
 .listItem {
   margin-bottom: 32px;
 }
-.listItem:last-child {
-  margin-bottom: 0;
+
+.btnLoad {
+  display: inline-flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  background: #f4c550;
+  color: #121417;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.56; /* 155.556% */
+  margin-top: 32px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+.btnLoad:hover,
+.btnLoad:focus {
+  background: #ffdc86;
+  transform: translateY(-2px);
+}
+.btnLoad:active {
+  transform: translateY(0);
+}
+.btnLoadContainer {
+  display: flex;
+  justify-content: center;
 }

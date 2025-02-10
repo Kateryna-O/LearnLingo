@@ -3,3 +3,8 @@
   gap: 24px;
   margin-bottom: 24px;
 }
+.wrapperPage {
+  padding-right: 64px;
+  padding-left: 64px;
+  margin-bottom: 12px;
+}
